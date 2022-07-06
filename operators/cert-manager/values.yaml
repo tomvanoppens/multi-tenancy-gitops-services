@@ -1,0 +1,11 @@
+global: {}
+
+ibm-certmanager-operator:
+  subscriptions:
+    ibmcert:
+      name: ibm-cert
+      subscription:
+        channel: stable
+        installPlanApproval: Automatic
+        name: ibm-cert-manager-operator
+        source: ibm-operator-catalog
