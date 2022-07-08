@@ -7,4 +7,4 @@ appVersion: "11.0.0"
 dependencies:
   - name: ibm-eventendpoint-instance
     version: 2.0.0
-    repository: https://github.com/tomvanoppens/toolkit-charts
+    repository: https://tomvanoppens.github.io/toolkit-charts-built/ibm-eventendpointmanager/
