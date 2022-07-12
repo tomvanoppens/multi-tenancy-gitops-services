@@ -1,12 +1,13 @@
 kind: OperationsDashboard
 metadata:
-  name: cp4i-operationsDashboard
-  spec:
-    storage:
-      configDbVolume:
-        class: ibmc-file-gold-gid
-      sharedVolume:
-        class: ibmc-file-gold-gid
-      tracingVolume:
-        class: ibmc-block-gold
+  name: cp4i-od-dev
+  namespace: tools
+spec:
+  storage:
+    configDbVolume:
+      class: ibmc-file-gold-gid
+    sharedVolume:
+      class: ibmc-file-gold-gid
+    tracingVolume:
+      class: ibmc-block-gold
 
