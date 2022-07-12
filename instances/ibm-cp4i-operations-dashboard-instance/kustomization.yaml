@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - ./dashboard/dashboard.yaml
 patchesStrategicMerge:
-  - pod_overlay.yaml
+  - overlay.yaml
