@@ -1,3 +1,4 @@
+kind: OperationsDashboard
 metadata:
   name: cp4i-operationsDashboard
   spec:
