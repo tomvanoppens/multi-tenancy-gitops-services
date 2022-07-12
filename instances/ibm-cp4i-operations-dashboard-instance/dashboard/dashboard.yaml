@@ -1,4 +1,5 @@
 kind: OperationsDashboard
+apiVersion: integration.ibm.com/v1beta2
 metadata:
   labels:
     app.kubernetes.io/instance: ibm-integration-operations-dashboard
