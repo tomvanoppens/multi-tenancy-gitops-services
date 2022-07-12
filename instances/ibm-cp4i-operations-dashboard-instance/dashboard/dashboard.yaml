@@ -18,4 +18,4 @@ spec:
       class: ibmc-file-gold-gid
     tracingVolume:
       class: ibmc-block-gold
-
+  version: 2022.2.1-0-lts
