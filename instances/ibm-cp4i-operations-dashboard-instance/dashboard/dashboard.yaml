@@ -8,6 +8,9 @@ metadata:
   name: cp4i-od-dev
   namespace: tools
 spec:
+  license:
+    accept: true
+    license: CP4I
   storage:
     configDbVolume:
       class: ibmc-file-gold-gid
