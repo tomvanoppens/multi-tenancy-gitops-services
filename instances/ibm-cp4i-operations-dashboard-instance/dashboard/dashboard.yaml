@@ -1,0 +1,17 @@
+kind: OperationsDashboard
+apiVersion: integration.ibm.com/v1beta2
+metadata:
+  name: dummy
+  spec:
+    license:
+      accept: true
+      license: CP4I
+    storage:
+      configDbVolume:
+        class: dummy
+      sharedVolume:
+        class: dummy
+      tracingVolume:
+        class: dummy
+    version: 2022.2.1-lts
+
