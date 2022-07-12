@@ -1,5 +1,3 @@
-kind: OperationsDashboard
-apiVersion: integration.ibm.com/v1beta2
 metadata:
   name: cp4i-operationsDashboard
   spec:
