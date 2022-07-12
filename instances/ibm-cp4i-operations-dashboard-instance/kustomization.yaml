@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - ./dashboard/dashboard.yaml
 patchesStrategicMerge:
-  - overlay.yaml
+  - ./overlay/overlay.yaml
