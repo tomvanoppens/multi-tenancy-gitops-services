@@ -1,0 +1,13 @@
+kind: OperationsDashboard
+apiVersion: integration.ibm.com/v1beta2
+metadata:
+  name: cp4i-operationsDashboard
+  spec:
+    storage:
+      configDbVolume:
+        class: ibmc-file-gold-gid
+      sharedVolume:
+        class: ibmc-file-gold-gid
+      tracingVolume:
+        class: ibmc-block-gold
+
